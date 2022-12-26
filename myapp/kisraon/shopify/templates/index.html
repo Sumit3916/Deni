@@ -1,0 +1,123 @@
+'{% extends 'base.html' %}
+{% load static %}
+{% block slider %}
+
+	<div class="banner_section banner_bg" style="background-image:url({% static 'images/banner/banner-bg.png'%})">
+         <div class="container-fluid">
+            <div id="my_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="taital_main">
+                        <div class="taital_left">
+                           <h1 class="banner_taital">Deni Product For Skin</h1>
+                           <div class="read_bt"><a href="#">Read More</a></div>
+                        </div>
+                        <div class="taital_right">
+                           <div class="product_img"><img src="{% static 'images/banner/product-img.png' %}"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="taital_main">
+                        <div class="taital_left">
+                           <h1 class="banner_taital">Deni Product For Skin</h1>
+                           <div class="read_bt"><a href="#">Read More</a></div>
+                        </div>
+                        <div class="taital_right">
+                           <div class="product_img"><img src="{% static 'images/banner/product-img.png' %}"></div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="carousel-item">
+                     <div class="taital_main">
+                        <div class="taital_left">
+                           <h1 class="banner_taital">Deni Product For Skin</h1>
+                           <div class="read_bt"><a href="#">Read More</a></div>
+                        </div>
+                        <div class="taital_right">
+                           <div class="product_img"><img src="{% static 'images/banner/product-img.png' %}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+{% endblock slider %}
+
+{% block about %}
+	<div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div><img src="{% static 'images/banner/about-img.png' %}" class="about_img"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="about_taital">About company</h1>
+                  <div class="border"></div>
+                  <p class="about_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationconsectetur adipiscing </p>
+                  <div class="read_bt_1"><a href="#">Read More</a></div>
+                  <div class="image_1"><img src="{% static 'images/img-1.png' %}"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+{% endblock %}
+
+{% block product %}
+	 <div class="product_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="product_taital">Products</h1>
+                  <p class="product_text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-3">
+                     <div class="item ">
+                        <div class="image_main"><img src="{% static 'images/product/7.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/1.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/2.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/3.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/4.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/5.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                  </div>
+                   <div class="col-sm-3">
+                     <div class="item">
+                        <div class="image_main"><img src="{% static 'images/product/6.jpg' %}" alt="image" /></div>
+                        <h6 class="price_text">Price <br><span style="color: #f75261;">$10</span></h6>
+                     </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </div>
+{% endblock %}
